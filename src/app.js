@@ -44,7 +44,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Imran Mahmud',
-        helpQuery: 'This might be the answer to your question'
+        helpQuery: 'We suggest you go for a walk, take your mind off the problem and come back with fresh eyes'
 
     })
 })
