@@ -103,6 +103,6 @@ app.get('*', (req, res) => {
 })
 
 // Heroku will provide a dyanmic port via a key value pair in env file
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('server is up on port ' + port)
 })
